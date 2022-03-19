@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-archivo_excel = pd.read_excel("Data.xls")
+archivo_excel = pd.read_excel("Data.xlsx")
 
 st.title("Aplicación movil")
 st.sidebar.title("Parámetros")
